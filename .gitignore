@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/
+reports/
+models/
+
+# Optional: kalau dataset terlalu besar, jangan push data ke GitHub
+# data/raw/*.csv
+# data/processed/*.csv
+
+# Environment files
+.env
